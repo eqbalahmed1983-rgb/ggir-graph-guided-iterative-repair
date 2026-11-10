@@ -39,7 +39,9 @@ scripts/package_submission.sh
 ```
 
 These commands may require a compatible Python environment and the dependencies listed in `requirements.txt` / `pyproject.toml`. Real-model evaluation requires the official competition environment, access credentials, and the specified Gemma 4 serving stack. Do not substitute a different model and describe it as an official Gemma 4 run.
+## Research Paper Alignment
 
+For a transparent explanation of the relationship between the research paper, implemented configurations, validation evidence, and proposed experiments, see [PAPER_ALIGNMENT.md](PAPER_ALIGNMENT.md).
 ## Relationship to the paper
 
 GGIR is the research framing for combining repository-aware retrieval, structural navigation, evidence-driven repair, and test-guided iteration. The exact implemented configuration and the status of optional specialist agents are described in `agent.yaml`, `variants/`, and `docs/architecture.md`. The paper should distinguish the currently validated single-agent configuration from optional or experimental multi-agent variants.
